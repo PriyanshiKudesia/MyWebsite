@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<tr>
+<td>
+<body background="map.png" height="100%" >
+</td>
+</tr>
+<table width="100%">
+<tr>
+<td><img src="banner.png" width="1350"  height="150">
+</td>
+</tr>
+<tr>
+<td>
+<ul>
+   <li><a class="active" href="home.html">Home</a></li>
+   <li><a href="about.html">About</a></li>
+  <li><a href="explore.html">Explore</a></li>
+  <li><a href="monument.html">Historical Monuments</a></li>
+ <li><a href="culture.html">Culture</a></li>
+ <li><a href="eduinst.html">Educational Institutions</a></li>
+ <li><a href="ecotour.html">Eco -Tourism</a></li>
+<li><a href="achi.html">Achievements</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="sl1.jpg" height="500"  width="1350">
+  <img class="mySlides" src="sl2.png" height="500"  width="1350">
+<img class="mySlides" src="sl4.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl5.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl7.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl8.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl9.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl10.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl6.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl11.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl12.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl13.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl14.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl15.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl16.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl17.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl18.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl19.jpg" height="500"  width="1350">
+<img class="mySlides" src="sl20.jpg" height="500"  width="1350">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
+</td>
+</tr>
+<tr>
+<th>
+<br>
+<H1>Prayagraj Kumbh Mela,2019</H1>
+<marquee behavior="scroll" direction="left" scrollamount="20"><img src="Kumbhmela.jpg" height="500"><img src="Kumbhmela1.jpg" height="500"><img src="Kumbhmela2.jpg" height="500"><img src="Kumbhmela3.jpg" height="500"><img src="Kumbhmela4.jpg" height="500"><img src="Kumbhmela5.jpg" height="500"><img src="Kumbhmela6.jpg" height="500"></marquee>
+</th></tr>
+<tr>
+</table>
+<tr>
+<H3>Copyright © with Priyanshi Kudesia and Shubhi Agarwal</H3>
+</tr>
+</body>
+</html>
